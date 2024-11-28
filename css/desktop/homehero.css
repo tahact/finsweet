@@ -1,0 +1,94 @@
+.homehero{
+    width: 100%;
+    height: 670px;
+    background-color: var(--mainbgcolor);
+padding: 126px 160px;
+box-sizing: border-box;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+align-items: center;
+gap: 60px;
+.left{
+    width: 53%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 48px;
+    div.details{
+width: 100%;
+display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    .title{
+        font-family: Poppins;
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 74px;
+        color: #ffffff;
+    }  
+    .descriptions{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;        
+        color: #ffffff;   
+        opacity: .7;
+    }  
+}
+.btngroups{
+width: 100%;
+display: flex;
+flex-flow: row nowrap;
+justify-content: start;
+align-items: center;
+gap: 40px;
+.viewourworkbtn{
+    box-sizing: border-box;
+    width: fit-content;
+height: 50px;
+padding: 16px 56px;
+cursor: pointer;
+border-radius: 41px;
+text-align: center;
+background-color:  #FCD980;
+font-family: Manrope;
+font-size: 15px;
+font-weight: 600;
+display: flex;
+align-items: center;
+line-height: 32px;
+text-align: left;
+color: #1b1c2b;
+}
+.viewpricingbtn{
+    font-family: Poppins;
+font-size: 13px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10;
+color: #ffffff;
+}
+    }
+}
+.right{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+    }
+}
+}

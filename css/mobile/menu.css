@@ -1,0 +1,117 @@
+label[for=show]{
+    width: 35px;
+    height: 35px;
+    background: #2b2b2b;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 25px black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: 400ms;
+    &:hover{
+        transform: scale(85%);
+    }
+    div{
+        width: 80%;
+        height: 2px;
+        background-color: white;
+    }
+}
+    input#show{
+        display: none;
+        &:checked ~ div.menu{
+            display: block;
+        }
+    }
+
+header{
+    width: 100%;
+    background-color: var(--mainbgcolor); 
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+
+    div.left{
+    width: 15%;
+    
+    }
+    div.right{
+        width: 50%;
+        border-radius: 10px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+        align-items: center;
+div.menu{
+    width: 50%;
+    height: 80px;
+    background: #000;
+    margin: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: 500ms;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    nav{
+        width: 100%;
+        ul{
+            width: inherit;
+            list-style: none;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: end;
+            align-items: center;
+            gap: 32px;
+            padding-right: 24px;
+            box-sizing: border-box;
+            li{
+                width: fit-content;
+                a{
+                    font-family: poppins;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    text-align: left;
+                    color: var(--textcolor);
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    &.active{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+div.contactbtn{
+    width: 30%;
+    padding-left: 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+     a{
+        text-decoration: none;
+        font-family: poppins;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
+        div.contactbtnus{
+            width: fit-content;
+            padding: 16px 48px; 
+            border: 2px solid #F4F6FC33;
+            border-radius: 41px;
+
+        }
+     }
+}
+    }
+} 

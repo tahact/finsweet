@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+div#app{
+    width: 100%;
+}
+@font-face {
+    font-family: manrope ;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: manrope ;
+    src: url(../fonts/Manrope-ExtraLight.eot);
+}
+@font-face {
+    font-family: manrope ;
+    src: url(../fonts/Manrope-ExtraLight.woff);
+}
+@font-face {
+    font-family: manrope ;
+    src: url(../fonts/Manrope-ExtraLight.woff2);
+}
+@font-face {
+    font-family: poppins ;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins ;
+    src: url(../fonts/Poppins-Medium.eot);
+}
+@font-face {
+    font-family: poppins ;
+    src: url(../fonts/Poppins-Medium.woff);
+}
+@font-face {
+    font-family: poppins ;
+    src: url(../fonts/Poppins-Medium.woff2);
+}
+:root{
+    --mainbgcolor : #1C1E53;
+    --textcolor : #bbbbcb ;
+    --colorwi : #ffffff;
+    --wework : #F4F6FC;
+}
+div.cover:hover{
+    display: block;
+}
